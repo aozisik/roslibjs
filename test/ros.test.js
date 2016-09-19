@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var EventEmitter2 = require('eventemitter2').EventEmitter2;
+var EventEmitter2 = require('eventemitter2');
 var ROSLIB = require('..');
 
 describe('ROS', function() {

@@ -4,7 +4,7 @@
  */
 
 var Message = require('../core/Message');
-var EventEmitter2 = require('eventemitter2').EventEmitter2;
+var EventEmitter2 = require('eventemitter2');
 
 /**
  * An actionlib goal goal is associated with an action server.

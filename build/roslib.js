@@ -81,7 +81,7 @@ global.ROSLIB = require('./RosLib');
 
 var Topic = require('../core/Topic');
 var Message = require('../core/Message');
-var EventEmitter2 = require('eventemitter2').EventEmitter2;
+var EventEmitter2 = require('eventemitter2');
 
 /**
  * An actionlib action client.
@@ -214,7 +214,7 @@ module.exports = ActionClient;
  */
 
 var Message = require('../core/Message');
-var EventEmitter2 = require('eventemitter2').EventEmitter2;
+var EventEmitter2 = require('eventemitter2');
 
 /**
  * An actionlib goal goal is associated with an action server.
@@ -305,7 +305,7 @@ module.exports = Goal;
 
 var Topic = require('../core/Topic');
 var Message = require('../core/Message');
-var EventEmitter2 = require('eventemitter2').EventEmitter2;
+var EventEmitter2 = require('eventemitter2');
 
 /**
  * An actionlib action server client.
@@ -633,7 +633,7 @@ var Service = require('./Service');
 var ServiceRequest = require('./ServiceRequest');
 
 var assign = require('object-assign');
-var EventEmitter2 = require('eventemitter2').EventEmitter2;
+var EventEmitter2 = require('eventemitter2');
 
 /**
  * Manages connection to the server and all interactions with ROS.
@@ -1082,7 +1082,7 @@ module.exports = Ros;
 
 var ServiceResponse = require('./ServiceResponse');
 var ServiceRequest = require('./ServiceRequest');
-var EventEmitter2 = require('eventemitter2').EventEmitter2;
+var EventEmitter2 = require('eventemitter2');
 
 /**
  * A ROS service client.
@@ -1349,7 +1349,7 @@ module.exports = SocketAdapter;
  * @author Brandon Alexander - baalexander@gmail.com
  */
 
-var EventEmitter2 = require('eventemitter2').EventEmitter2;
+var EventEmitter2 = require('eventemitter2');
 var Message = require('./Message');
 
 /**
